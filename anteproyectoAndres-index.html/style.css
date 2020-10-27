@@ -1,0 +1,73 @@
+.body{
+    background: linear-gradient(rgb(0,128 ,255 ), rgb(0,142 ,204 ),rgb(15,82,186) ) ;
+   
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+  color: black;
+}
+ h3{
+ font-family: 'Source Serif Pro', serif;
+ color:white;
+ }
+
+ p{
+ color: white
+}
+
+h5{
+color: black
+
+}
+ hr{
+     background-color: rgb(165, 157, 157);
+ }
+ 
+.content-general{
+    margin-left: 10%;
+    position: fixed;
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    opacity: 0.2;
+}
+
+.content{
+margin-top: 30px;
+margin-right: 12%;
+margin-left: 12%;
+}
+
+.footer{
+    width: 100%;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+
+/*galeria*/
+
+.gal {
+	
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+
+    }
+    
